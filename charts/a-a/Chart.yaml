@@ -1,0 +1,11 @@
+apiVersion: v2
+appVersion: "1.0"
+description: A Helm chart for a-a App
+name: a-a
+home: https://github.com/hmcts/a-a
+version: 0.0.1
+dependencies:
+  - name: nodejs
+    version: 2.3.1
+    repository: '@hmctspublic'
+

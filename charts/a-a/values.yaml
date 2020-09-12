@@ -1,0 +1,6 @@
+nodejs:
+  applicationPort: 3100
+  aadIdentityName: rpe
+  ingressHost: a-a.{{ .Values.global.environment }}.platform.hmcts.net
+  image: 'hmctspublic.azurecr.io/a/a:latest'
+  environment:
